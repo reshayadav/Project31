@@ -15,7 +15,7 @@ class Plinko{
       
         push ();
         fill (255);
-        ellipseMode(CENTER);
+        ellipseMode(RADIUS);
         ellipse(pos.x,pos.y,10,10);
         pop ();
     }
